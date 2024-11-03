@@ -1,13 +1,9 @@
-import './App.css';
+import "./App.css";
 
-import Signup from './pages/auth/Signup';
-
+import MainRoutes from "./routes/MainRoutes";
 
 function App() {
-
-  return (
-    <Signup />
-  );
+  return <MainRoutes />;
 }
 
 export default App;
