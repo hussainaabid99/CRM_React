@@ -9,7 +9,7 @@ function Signup() {
                               placeholder="UserId"
                               className="input input-bordered text-white input-primary w-full max-w-xs " />
                          <input
-                              type="emaIL"
+                              type="email"
                               placeholder="Email"
                               className="input input-bordered text-white input-primary w-full max-w-xs " />
                          <input
@@ -29,7 +29,7 @@ function Signup() {
                     </div>
                </div>
           </div>
-     )
+     );
 }
 
 export default Signup;
